@@ -121,6 +121,7 @@
   <ItemGroup>
     <Content Include="WEBServiceCORE1.svc" />
     <Content Include="Web.config" />
+    <Content Include="WEBServiceCORE3.svc" />
     <Content Include="WEBSERVICEcore4.svc" />
     <Content Include="WEBSERVICEcore5.svc" />
     <Content Include="WEBServiceCORE6.svc" />
@@ -129,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IService1.cs" />
+    <Compile Include="IWEBServiceCORE3.cs" />
     <Compile Include="IWEBSERVICEcore4.cs" />
     <Compile Include="IWEBSERVICEcore5.cs" />
     <Compile Include="IWEBServiceCORE6.cs" />
@@ -137,6 +139,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WEBServiceCORE1.svc.cs">
       <DependentUpon>WEBServiceCORE1.svc</DependentUpon>
+    </Compile>
+    <Compile Include="WEBServiceCORE3.svc.cs">
+      <DependentUpon>WEBServiceCORE3.svc</DependentUpon>
     </Compile>
     <Compile Include="WEBSERVICEcore4.svc.cs">
       <DependentUpon>WEBSERVICEcore4.svc</DependentUpon>
