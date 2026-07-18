@@ -1,84 +1,170 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
-using System.Text;
 
 namespace PROYECTO2_WEBService
 {
     [ServiceContract]
     public interface IService1
     {
-        // Método para obtener todos los puestos activos
+
+        // ========================================
+        // OBTENER PUESTOS ACTIVOS
+        // ========================================
+
         [OperationContract]
-        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, UriTemplate = "ObtenerPuestosActivos")]
+        [WebInvoke(
+            Method = "GET",
+            ResponseFormat = WebMessageFormat.Json,
+            UriTemplate = "ObtenerPuestosActivos")]
         List<PuestoDTO> ObtenerPuestosActivos();
 
-        // Método para obtener puesto por código
+
+
+        // ========================================
+        // OBTENER PUESTO POR CODIGO
+        // ========================================
+
         [OperationContract]
-        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, UriTemplate = "ObtenerPuestoPorCodigo?codigo={codigo}")]
+        [WebInvoke(
+            Method = "GET",
+            ResponseFormat = WebMessageFormat.Json,
+            UriTemplate = "ObtenerPuestoPorCodigo?codigo={codigo}")]
         PuestoDTO ObtenerPuestoPorCodigo(string codigo);
 
-        // Método para obtener puestos por rango de salario
+
+
+        // ========================================
+        // OBTENER POR RANGO SALARIO
+        // ========================================
+
         [OperationContract]
-        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, UriTemplate = "ObtenerPuestosPorSalario?min={min}&max={max}")]
+        [WebInvoke(
+            Method = "GET",
+            ResponseFormat = WebMessageFormat.Json,
+            UriTemplate = "ObtenerPuestosPorSalario?min={min}&max={max}")]
         List<PuestoDTO> ObtenerPuestosPorSalario(decimal min, decimal max);
 
-        // Método para obtener todos los puestos (activos e inactivos)
+
+
+        // ========================================
+        // OBTENER TODOS
+        // ========================================
+
         [OperationContract]
-        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, UriTemplate = "ObtenerTodosLosPuestos")]
+        [WebInvoke(
+            Method = "GET",
+            ResponseFormat = WebMessageFormat.Json,
+            UriTemplate = "ObtenerTodosLosPuestos")]
         List<PuestoDTO> ObtenerTodosLosPuestos();
 
-        // Métodos existentes (mantener)
+
+
+        // ========================================
+        // CORS PREFLIGHT
+        // ========================================
+
+        [OperationContract]
+        [WebInvoke(
+            Method = "OPTIONS",
+            UriTemplate = "*")]
+        void Options();
+
+
+
+        // ========================================
+        // MÉTODOS BASE WCF
+        // ========================================
+
         [OperationContract]
         string GetData(int value);
 
+
         [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
+        CompositeType GetDataUsingDataContract(
+            CompositeType composite);
+
     }
+
+
+
+    // ========================================
+    // DTO PUESTO
+    // ========================================
 
     [DataContract]
     public class PuestoDTO
     {
+
         [DataMember]
         public int Id { get; set; }
+
 
         [DataMember]
         public string CodigoPuesto { get; set; }
 
+
         [DataMember]
         public string NombrePuesto { get; set; }
+
 
         [DataMember]
         public decimal Salario { get; set; }
 
+
         [DataMember]
-        public string Estado { get; set; } // "Activo" o "Inactivo"
+        public string Estado { get; set; }
+
 
         [DataMember]
         public string FechaCreacion { get; set; }
+
     }
+
+
+
+    // ========================================
+    // DTO ORIGINAL WCF
+    // ========================================
 
     [DataContract]
     public class CompositeType
     {
+
         bool boolValue = true;
+
         string stringValue = "Hello ";
+
+
 
         [DataMember]
         public bool BoolValue
         {
-            get { return boolValue; }
-            set { boolValue = value; }
+            get
+            {
+                return boolValue;
+            }
+            set
+            {
+                boolValue = value;
+            }
         }
+
+
 
         [DataMember]
         public string StringValue
         {
-            get { return stringValue; }
-            set { stringValue = value; }
+            get
+            {
+                return stringValue;
+            }
+            set
+            {
+                stringValue = value;
+            }
         }
+
     }
 }

@@ -11,8 +11,46 @@
     <!-- Barra superior -->
     <header class="header">
         <div class="header-right">
-            <span>Admin</span>
-            <div class="avatar"></div>
+            <?php
+                session_start();
+
+                if(!isset($_SESSION['usuario'])){
+                    header("Location: login.php");
+                    exit();
+                }
+
+
+                $nombre=$_SESSION['usuario'];
+
+                $inicial=strtoupper(
+                    substr($nombre,0,1)
+                );
+
+                
+
+                ?>
+
+
+                <header class="header">
+
+                <div class="header-right">
+
+                    <span> <strong><?php echo $nombre; ?></strong></span>
+
+                    <div class="avatar">
+                        <?php echo $inicial; ?>
+                    </div>
+
+                    <a href="logout.php" class="btn-logout">
+                        Cerrar sesión
+                    </a>
+
+                </div>
+
+
+                </div>
+
+                </header>
         </div>
     </header>
 
@@ -21,6 +59,18 @@
 
         <div class="titulo-principal">
             <h1>SISTEMA DE WEBSERVICE</h1>
+        </div>
+
+        <div class="bienvenida">
+
+            <h2>
+                Bienvenido, <?php echo $nombre; ?>
+            </h2>
+
+            <p>
+                Seleccione una de las opciones disponibles.
+            </p>
+
         </div>
 
         <div class="opciones">
