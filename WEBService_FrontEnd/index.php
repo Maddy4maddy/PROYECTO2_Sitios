@@ -104,6 +104,7 @@ $inicial = strtoupper(
 
         <div class="opciones">
 
+            <!-- CORE 1: Listado de puestos activos -->
             <a
                 href="puestos.php"
                 class="opcion"
@@ -113,6 +114,17 @@ $inicial = strtoupper(
                 </h2>
             </a>
 
+            <!-- CORE 6: Detalle de puestos (buscar por código) -->
+            <a
+                href="detallePuesto.php"
+                class="opcion"
+            >
+                <h2>
+                    Detalle Puestos
+                </h2>
+            </a>
+
+            <!-- CORE 3: Crear empleado -->
             <a
                 href="crearEmpleado.php"
                 class="opcion"
@@ -122,24 +134,17 @@ $inicial = strtoupper(
                 </h2>
             </a>
 
+            <!-- CORE 8: Ver oferente -->
             <a
-                href="#"
+                href="verOferente.php"
                 class="opcion"
             >
                 <h2>
-                    Pendiente
+                    Ver Oferente
                 </h2>
             </a>
 
-            <a
-                href="#"
-                class="opcion"
-            >
-                <h2>
-                    Pendiente
-                </h2>
-            </a>
-
+            <!-- Pendientes -->
             <a
                 href="#"
                 class="opcion"

@@ -3,15 +3,42 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.ServiceModel.Web;
 using System.Text;
 
 namespace PROYECTO2_WEBService
 {
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de interfaz "IWEBServiceCORE8" en el código y en el archivo de configuración a la vez.
     [ServiceContract]
     public interface IWEBServiceCORE8
     {
         [OperationContract]
-        void DoWork();
+        [WebGet(UriTemplate = "ObtenerOferente?codigo={codigo}",
+                ResponseFormat = WebMessageFormat.Json)]
+        OferenteDTO ObtenerOferente(string codigo);
+    }
+
+    [DataContract]
+    public class OferenteDTO
+    {
+        [DataMember]
+        public string CodigoOferente { get; set; }
+
+        [DataMember]
+        public string Identificacion { get; set; }
+
+        [DataMember]
+        public string TipoIdentificacion { get; set; }
+
+        [DataMember]
+        public string NombreCompleto { get; set; }
+
+        [DataMember]
+        public string FechaNacimiento { get; set; }
+
+        [DataMember]
+        public string Correo { get; set; }
+
+        [DataMember]
+        public string Telefono { get; set; }
     }
 }
