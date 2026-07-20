@@ -21,8 +21,6 @@ namespace PROYECTO2_WEBService
          */
         public void OpcionesCrearEmpleado()
         {
-            AgregarEncabezadosCors();
-
             if (WebOperationContext.Current != null)
             {
                 WebOperationContext.Current
@@ -38,8 +36,6 @@ namespace PROYECTO2_WEBService
             CrearEmpleadoRequest request
         )
         {
-            AgregarEncabezadosCors();
-
             CrearEmpleadoResponse respuesta =
                 new CrearEmpleadoResponse
                 {
@@ -724,33 +720,6 @@ namespace PROYECTO2_WEBService
          * Agrega los encabezados necesarios para que el frontend
          * de localhost:8000 consuma directamente el servicio.
          */
-        private void AgregarEncabezadosCors()
-        {
-            if (WebOperationContext.Current == null)
-            {
-                return;
-            }
-
-            WebOperationContext.Current
-                .OutgoingResponse.Headers[
-                    "Access-Control-Allow-Origin"
-                ] = "*";
-
-            WebOperationContext.Current
-                .OutgoingResponse.Headers[
-                    "Access-Control-Allow-Methods"
-                ] = "POST, OPTIONS";
-
-            WebOperationContext.Current
-                .OutgoingResponse.Headers[
-                    "Access-Control-Allow-Headers"
-                ] = "Content-Type, Accept";
-
-            WebOperationContext.Current
-                .OutgoingResponse.Headers[
-                    "Access-Control-Max-Age"
-                ] = "86400";
-        }
 
         /*
          * Establece el código HTTP sin provocar error

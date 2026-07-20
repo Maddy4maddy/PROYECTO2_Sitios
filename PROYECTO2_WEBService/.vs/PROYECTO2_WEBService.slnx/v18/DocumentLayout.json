@@ -1,50 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\",
+  "WorkspaceRootPath": "C:\\PruebaGit\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\maddy4maddy\\proyecto2_sitios\\proyecto2_webservice\\proyecto2_webservice\\webservicecore8.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore8.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\maddy4maddy\\proyecto2_sitios\\proyecto2_webservice\\proyecto2_webservice\\iwebservicecore8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\iwebservicecore8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\proyecto2_webservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\pruebagit\\proyecto2_sitios\\proyecto2_webservice\\proyecto2_webservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\maddy4maddy\\proyecto2_sitios\\proyecto2_webservice\\proyecto2_webservice\\webservicecore8.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore8.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\proyecto2_webservice\\webservicecore4.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore4.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\maddy4maddy\\proyecto2_sitios\\proyecto2_webservice\\proyecto2_webservice\\webservicecore1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\maddy4maddy\\proyecto2_sitios\\proyecto2_webservice\\proyecto2_webservice\\webservicecore6.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore6.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\maddy4maddy\\proyecto2_sitios\\proyecto2_webservice\\proyecto2_webservice\\iwebservicecore6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\iwebservicecore6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\maddy4maddy\\proyecto2_sitios\\proyecto2_webservice\\proyecto2_webservice\\webservicecore6.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore6.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\proyecto2_webservice\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\proyecto2_webservice\\iwebservicecore4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\iwebservicecore4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\pruebagit\\proyecto2_sitios\\proyecto2_webservice\\proyecto2_webservice\\webservicecore3.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore3.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,8 +18,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 98,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WEBServiceCORE3.svc.cs",
+              "DocumentMoniker": "C:\\PruebaGit\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
+              "ToolTip": "C:\\PruebaGit\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
+              "ViewState": "AgIAAMwCAAAAAAAAAAAAANECAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T04:40:34.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\PruebaGit\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\Web.config",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\Web.config",
+              "ToolTip": "C:\\PruebaGit\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\Web.config",
+              "RelativeToolTip": "PROYECTO2_WEBService\\Web.config",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-07-20T04:36:38.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -86,156 +80,15 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WEBServiceCORE8.svc",
-              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE8.svc",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE8.svc",
-              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE8.svc",
-              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE8.svc",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
-              "WhenOpened": "2026-07-20T01:40:53.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WEBServiceCORE8.svc.cs",
-              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE8.svc.cs",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE8.svc.cs",
-              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE8.svc.cs",
-              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE8.svc.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T01:40:33.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IWEBServiceCORE8.cs",
-              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IWEBServiceCORE8.cs",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\IWEBServiceCORE8.cs",
-              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IWEBServiceCORE8.cs",
-              "RelativeToolTip": "PROYECTO2_WEBService\\IWEBServiceCORE8.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T01:40:00.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WEBServiceCORE6.svc",
-              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE6.svc",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE6.svc",
-              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE6.svc",
-              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE6.svc",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
-              "WhenOpened": "2026-07-19T22:54:18.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WEBServiceCORE6.svc.cs",
-              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE6.svc.cs",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE6.svc.cs",
-              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE6.svc.cs",
-              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE6.svc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-19T22:53:43.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IWEBServiceCORE6.cs",
-              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IWEBServiceCORE6.cs",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\IWEBServiceCORE6.cs",
-              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IWEBServiceCORE6.cs",
-              "RelativeToolTip": "PROYECTO2_WEBService\\IWEBServiceCORE6.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-19T22:51:59.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WEBServiceCORE1.svc.cs",
-              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE1.svc.cs",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE1.svc.cs",
-              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE1.svc.cs",
-              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE1.svc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T02:02:22.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IService1.cs",
-              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IService1.cs",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\IService1.cs",
-              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IService1.cs",
-              "RelativeToolTip": "PROYECTO2_WEBService\\IService1.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAADwv6kAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T02:01:37.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\Web.config",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\Web.config",
-              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\Web.config",
-              "RelativeToolTip": "PROYECTO2_WEBService\\Web.config",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-07-18T01:53:37.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WEBSERVICEcore4.svc.cs",
-              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBSERVICEcore4.svc.cs",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBSERVICEcore4.svc.cs",
-              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBSERVICEcore4.svc.cs",
-              "RelativeToolTip": "PROYECTO2_WEBService\\WEBSERVICEcore4.svc.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAQwOEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T00:31:50.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IWEBSERVICEcore4.cs",
-              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IWEBSERVICEcore4.cs",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\IWEBSERVICEcore4.cs",
-              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Maddy4maddy\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IWEBSERVICEcore4.cs",
-              "RelativeToolTip": "PROYECTO2_WEBService\\IWEBSERVICEcore4.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T00:30:22.096Z"
             }
           ]
         },
@@ -243,14 +96,6 @@
           "DockedWidth": 145,
           "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:32:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
@@ -386,6 +231,14 @@
             {
               "$type": "Bookmark",
               "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

@@ -40,8 +40,6 @@ $inicial = strtoupper(substr($nombre, 0, 1));
             </div>
             <nav class="menu-lateral">
                 <a href="index.php">Principal</a>
-                <a href="puestos.php">Puestos Activos</a>
-                <a href="puestos_core6.php" class="activo">Detalle Puestos</a>
             </nav>
         </aside>
 

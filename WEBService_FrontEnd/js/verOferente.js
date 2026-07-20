@@ -124,6 +124,13 @@ function renderizarOferente(container, oferente) {
                     <span class="detalle-valor">${oferente.Telefono || "N/A"}</span>
                 </div>
             </div>
+            <div class="acciones-detalle">
+                <button
+                    class="btn-crear"
+                    onclick="abrirCrearEmpleado('${oferente.CodigoOferente}')">
+                    Crear empleado
+                </button>
+            </div>
         </div>
     `;
 }
@@ -137,4 +144,10 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     }
+
 });
+
+function abrirCrearEmpleado(codigo) {
+    window.location.href =
+        "detalleOferenteEmpleado.php?codigo=" + encodeURIComponent(codigo);
+}

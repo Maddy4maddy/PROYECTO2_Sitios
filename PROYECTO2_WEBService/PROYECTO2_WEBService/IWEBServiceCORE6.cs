@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
+﻿using System.Collections.Generic;
 using System.ServiceModel;
 using System.ServiceModel.Web;
-using System.Text;
 
 namespace PROYECTO2_WEBService
 {
@@ -12,8 +8,16 @@ namespace PROYECTO2_WEBService
     public interface IWEBServiceCORE6
     {
         [OperationContract]
-        [WebGet(UriTemplate = "ObtenerPuestoPorCodigo?codigo={codigo}",
-                ResponseFormat = WebMessageFormat.Json)]
+        [WebGet(
+            UriTemplate = "ObtenerPuestoPorCodigo?codigo={codigo}",
+            ResponseFormat = WebMessageFormat.Json)]
         PuestoDTO ObtenerPuestoPorCodigo(string codigo);
+
+
+        [OperationContract]
+        [WebGet(
+            UriTemplate = "ObtenerPuestosActivos",
+            ResponseFormat = WebMessageFormat.Json)]
+        List<PuestoDTO> ObtenerPuestosActivos();
     }
 }

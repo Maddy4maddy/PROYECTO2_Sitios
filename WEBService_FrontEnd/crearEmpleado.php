@@ -234,17 +234,6 @@ $inicial = strtoupper(
                 Principal
             </a>
 
-            <a href="puestos.php">
-                Puestos activos
-            </a>
-
-            <a
-                href="crearEmpleado.php"
-                class="activo"
-            >
-                Crear empleado
-            </a>
-
         </nav>
 
     </aside>

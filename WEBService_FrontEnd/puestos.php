@@ -26,8 +26,6 @@
         </div>
         <nav class="menu-lateral">
             <a href="index.php">Principal</a>
-            <a href="puestos.php" class="activo">Puestos Activos</a>
-            <a href="detallePuesto.php">Detalle Puestos</a>
         </nav>
     </aside>
 

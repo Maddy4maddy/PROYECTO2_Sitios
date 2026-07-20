@@ -144,43 +144,6 @@ $inicial = strtoupper(
                 </h2>
             </a>
 
-            <!-- Pendientes -->
-            <a
-                href="#"
-                class="opcion"
-            >
-                <h2>
-                    Pendiente
-                </h2>
-            </a>
-
-            <a
-                href="#"
-                class="opcion"
-            >
-                <h2>
-                    Pendiente
-                </h2>
-            </a>
-
-            <a
-                href="#"
-                class="opcion"
-            >
-                <h2>
-                    Pendiente
-                </h2>
-            </a>
-
-            <a
-                href="#"
-                class="opcion"
-            >
-                <h2>
-                    Pendiente
-                </h2>
-            </a>
-
         </div>
 
     </main>
