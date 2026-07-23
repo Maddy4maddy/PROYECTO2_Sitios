@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Alcance2\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Alcance2\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\proyecto2_webservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\limaw\\documents\\cuc\\sitios\\proyecto_alcance2\\proyecto2_sitios\\proyecto2_webservice\\proyecto2_webservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\limaw\\documents\\cuc\\sitios\\proyecto_alcance2\\proyecto2_sitios\\proyecto2_webservice\\proyecto2_webservice\\iwebservicecore3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Alcance2\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\proyecto2_webservice\\iwebservicecore3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\iwebservicecore3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "PROYECTO2_WEBService\\Web.config",
               "ToolTip": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Alcance2\\PROYECTO2_Sitios\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\Web.config",
               "RelativeToolTip": "PROYECTO2_WEBService\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-07-18T15:56:41.54Z",
               "EditorCaption": ""
@@ -95,8 +95,7 @@
               "RelativeToolTip": "PROYECTO2_WEBService\\IWEBServiceCORE3.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAIwFYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T15:27:44.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-18T15:27:44.626Z"
             }
           ]
         },

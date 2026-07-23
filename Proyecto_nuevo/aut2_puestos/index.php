@@ -4,13 +4,16 @@ error_reporting(E_ALL);
 
 require_once "../config/conexion.php";
 
-$sql = "SELECT id_puesto, nombre_puesto, descripcion, area, fecha_publicacion
+$sql = "SELECT id, nombre_puesto, salario, estado, fecha_creacion
         FROM puestos
-        WHERE disponible = 1
+        WHERE estado = :estado
         ORDER BY nombre_puesto ASC";
 
 $consulta = $conexion->prepare($sql);
-$consulta->execute();
+$consulta->execute([
+    ":estado" => "Activo"
+]);
+
 $puestos = $consulta->fetchAll();
 ?>
 
@@ -56,6 +59,7 @@ $puestos = $consulta->fetchAll();
 
         <section class="tarjeta-contenido">
             <h2>Puestos disponibles</h2>
+
             <p class="intro">
                 Seleccione el puesto de su interés para registrar su postulación.
             </p>
@@ -68,22 +72,32 @@ $puestos = $consulta->fetchAll();
                         <article class="puesto-item">
 
                             <h3>
-                                <a href="../aut3-postulacion/index.php?id_puesto=<?php echo $puesto['id_puesto']; ?>">
+                                <a href="../aut3-postulacion/index.php?id_puesto=<?php echo (int) $puesto['id']; ?>">
                                     <?php echo htmlspecialchars($puesto['nombre_puesto']); ?>
                                 </a>
                             </h3>
 
-                            <p><strong>Área:</strong> <?php echo htmlspecialchars($puesto['area']); ?></p>
+                            <p>
+                                <strong>Salario:</strong>
+                                ₡<?php echo number_format((float) $puesto['salario'], 2, ',', '.'); ?>
+                            </p>
 
                             <p>
-                                <?php echo htmlspecialchars($puesto['descripcion']); ?>
+                                <strong>Estado:</strong>
+                                <span class="estado-activo">
+                                    <?php echo htmlspecialchars($puesto['estado']); ?>
+                                </span>
                             </p>
 
                             <p class="fecha">
-                                Publicado el: <?php echo htmlspecialchars($puesto['fecha_publicacion']); ?>
+                                Publicado el:
+                                <?php echo htmlspecialchars($puesto['fecha_creacion']); ?>
                             </p>
 
-                            <a class="btn-postular" href="../aut3-postulacion/index.php?id_puesto=<?php echo $puesto['id_puesto']; ?>">
+                            <a
+                                class="btn-postular"
+                                href="../aut3-postulacion/index.php?id_puesto=<?php echo (int) $puesto['id']; ?>"
+                            >
                                 Postularme
                             </a>
 

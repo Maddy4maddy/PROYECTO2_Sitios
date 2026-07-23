@@ -9,15 +9,25 @@ if (!isset($_GET['id_puesto']) || empty($_GET['id_puesto'])) {
     exit;
 }
 
-$id_puesto = $_GET['id_puesto'];
+$id_puesto = filter_var($_GET['id_puesto'], FILTER_VALIDATE_INT);
 
-$sql = "SELECT id_puesto, nombre_puesto, descripcion, area
+if ($id_puesto === false || $id_puesto <= 0) {
+    header("Location: ../aut2_puestos/");
+    exit;
+}
+
+$sql = "SELECT id, nombre_puesto, salario, estado, fecha_creacion
         FROM puestos
-        WHERE id_puesto = :id_puesto AND disponible = 1";
+        WHERE id = :id_puesto
+          AND estado = :estado
+        LIMIT 1";
 
 $consulta = $conexion->prepare($sql);
-$consulta->bindParam(":id_puesto", $id_puesto, PDO::PARAM_INT);
-$consulta->execute();
+$consulta->execute([
+    ":id_puesto" => $id_puesto,
+    ":estado" => "Activo"
+]);
+
 $puesto = $consulta->fetch();
 
 if (!$puesto) {
@@ -72,23 +82,61 @@ if (!$puesto) {
 
             <div class="puesto-seleccionado">
                 <h3>Puesto seleccionado:</h3>
-                <p><strong><?php echo htmlspecialchars($puesto['nombre_puesto']); ?></strong></p>
-                <p><strong>Área:</strong> <?php echo htmlspecialchars($puesto['area']); ?></p>
-                <p><?php echo htmlspecialchars($puesto['descripcion']); ?></p>
+
+                <p>
+                    <strong>
+                        <?php echo htmlspecialchars($puesto['nombre_puesto']); ?>
+                    </strong>
+                </p>
+
+                <p>
+                    <strong>Salario:</strong>
+                    ₡<?php echo number_format((float) $puesto['salario'], 2, ',', '.'); ?>
+                </p>
+
+                <p>
+                    <strong>Estado:</strong>
+                    <?php echo htmlspecialchars($puesto['estado']); ?>
+                </p>
+
+                <p>
+                    <strong>Fecha de creación:</strong>
+                    <?php echo htmlspecialchars($puesto['fecha_creacion']); ?>
+                </p>
             </div>
 
-            <form action="guardar.php" method="POST" enctype="multipart/form-data" class="form-postulacion" id="formPostulacion">
+            <form
+                action="guardar.php"
+                method="POST"
+                enctype="multipart/form-data"
+                class="form-postulacion"
+                id="formPostulacion"
+            >
 
-                <input type="hidden" name="id_puesto" value="<?php echo htmlspecialchars($puesto['id_puesto']); ?>">
+                <input
+                    type="hidden"
+                    name="id_puesto"
+                    value="<?php echo (int) $puesto['id']; ?>"
+                >
 
                 <div class="grupo-form">
                     <label for="identificacion">Identificación:</label>
-                    <input type="text" id="identificacion" name="identificacion" required>
+                    <input
+                        type="text"
+                        id="identificacion"
+                        name="identificacion"
+                        required
+                    >
                 </div>
 
                 <div class="grupo-form">
                     <label for="tipo_identificacion">Tipo identificación:</label>
-                    <select id="tipo_identificacion" name="tipo_identificacion" required>
+
+                    <select
+                        id="tipo_identificacion"
+                        name="tipo_identificacion"
+                        required
+                    >
                         <option value="">Seleccione</option>
                         <option value="Cédula de identidad">Cédula de identidad</option>
                         <option value="DIMEX">DIMEX</option>
@@ -98,32 +146,69 @@ if (!$puesto) {
 
                 <div class="grupo-form">
                     <label for="nombre_completo">Nombre completo:</label>
-                    <input type="text" id="nombre_completo" name="nombre_completo" required>
+
+                    <input
+                        type="text"
+                        id="nombre_completo"
+                        name="nombre_completo"
+                        required
+                    >
                 </div>
 
                 <div class="grupo-form">
                     <label for="fecha_nacimiento">Fecha de nacimiento:</label>
-                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+                    <input
+                        type="date"
+                        id="fecha_nacimiento"
+                        name="fecha_nacimiento"
+                        max="<?php echo date('Y-m-d'); ?>"
+                        required
+                    >
                 </div>
 
                 <div class="grupo-form">
                     <label for="correo">Correo electrónico:</label>
-                    <input type="email" id="correo" name="correo" required>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        required
+                    >
                 </div>
 
                 <div class="grupo-form">
                     <label for="telefono">Teléfono de contacto:</label>
-                    <input type="text" id="telefono" name="telefono" required>
+
+                    <input
+                        type="text"
+                        id="telefono"
+                        name="telefono"
+                        required
+                    >
                 </div>
 
                 <div class="grupo-form">
                     <label for="curriculum">Currículum:</label>
-                    <input type="file" id="curriculum" name="curriculum" accept=".pdf,.doc,.docx" required>
+
+                    <input
+                        type="file"
+                        id="curriculum"
+                        name="curriculum"
+                        accept=".pdf,.doc,.docx"
+                        required
+                    >
                 </div>
 
                 <div class="acciones-form">
-                    <button type="submit" class="btn-postular">Aceptar</button>
-                    <a href="../aut2_puestos/" class="btn-cancelar">Cancelar</a>
+                    <button type="submit" class="btn-postular">
+                        Aceptar
+                    </button>
+
+                    <a href="../aut2_puestos/" class="btn-cancelar">
+                        Cancelar
+                    </a>
                 </div>
 
             </form>
